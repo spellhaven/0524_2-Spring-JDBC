@@ -33,13 +33,13 @@ public class BDao {
 
 		this.template = Constant.template;
 		
-		try {
-			Context context = new InitialContext();
-			dataSource = (DataSource) context.lookup("java:comp/env/jdbc/Oracle11g");
-		} catch (NamingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}	
+//		try {
+//			Context context = new InitialContext();
+//			dataSource = (DataSource) context.lookup("java:comp/env/jdbc/Oracle11g");
+//		} catch (NamingException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}	
 		
 	}
 	
